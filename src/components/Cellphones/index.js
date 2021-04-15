@@ -43,7 +43,7 @@ function Cellphones({getpopular,getsearchimgdata,getdata,getrecommendations,gets
 
       axios({
         method: 'get',
-        // url: 'https://recommender-fyp.herokuapp.com/electronics/getdata',
+        // url: 'https://recommender-fyp.herokuapp.com/cellphone/getdata',
         url:getdata,
       })
       .then((response)=>{ 
@@ -56,7 +56,7 @@ function Cellphones({getpopular,getsearchimgdata,getdata,getrecommendations,gets
 
         axios({
             method: 'get',
-            // url: 'https://recommender-fyp.herokuapp.com/electronics/getpopular',
+            // url: 'https://recommender-fyp.herokuapp.com/cellphone/getpopular',
             url:getpopular,
           })
           .then((response)=>{
@@ -67,7 +67,7 @@ function Cellphones({getpopular,getsearchimgdata,getdata,getrecommendations,gets
          
           axios({
             method: 'get',
-            // url: 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata',
+            // url: 'https://recommender-fyp.herokuapp.com/cellphone/getsearchimgdata',
             url:getsearchimgdata,
           })
           .then((response)=>{
@@ -107,7 +107,7 @@ function Cellphones({getpopular,getsearchimgdata,getdata,getrecommendations,gets
         axios({
             
             method: 'post',
-            // url: 'https://recommender-fyp.herokuapp.com/electronics/getrecommendations',
+            // url: 'https://recommender-fyp.herokuapp.com/cellphone/getrecommendations',
             url:getrecommendations,
             data: {
               "all_products" : ratings_from_child
@@ -138,7 +138,7 @@ function Cellphones({getpopular,getsearchimgdata,getdata,getrecommendations,gets
 
         axios({
             method: 'post',
-            // url: 'https://recommender-fyp.herokuapp.com/electronics/getsimilarimage',
+            // url: 'https://recommender-fyp.herokuapp.com/cellphone/getsimilarimage',
             url:getsimilarimage,
             data: 
                 {

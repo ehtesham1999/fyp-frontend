@@ -31,54 +31,54 @@ const Home = () => {
             <Switch>
                 <Route path='/electronics'>
                     <Electronics 
-                     getpopular='http://127.0.0.1:5000/electronics/getpopular'
-                     getsearchimgdata= 'http://127.0.0.1:5000/electronics/getsearchimgdata'
-                     getdata='http://127.0.0.1:5000/electronics/getdata'
-                     getrecommendations='http://127.0.0.1:5000/electronics/getrecommendations'
-                     getsimilarimage='http://127.0.0.1:5000/electronics/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
                     />
                 </Route>
 
                 <Route path='/sports'>
                 <Sports 
-                     getpopular='http://127.0.0.1:5000/sports/getpopular'
-                     getsearchimgdata= 'http://127.0.0.1:5000/sports/getsearchimgdata'
-                     getdata='http://127.0.0.1:5000/sports/getdata'
-                     getrecommendations='http://127.0.0.1:5000/sports/getrecommendations'
-                     getsimilarimage='http://127.0.0.1:5000/sports/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
                     />
                
                 </Route>
 
                 <Route path='/kitchen'>
                 <Electronics 
-                     getpopular='http://127.0.0.1:5000/getpopular'
-                     getsearchimgdata= 'http://127.0.0.1:5000/getsearchimgdata'
-                     getdata='http://127.0.0.1:5000/getdata'
-                     getrecommendations='http://127.0.0.1:5000/getrecommendations'
-                     getsimilarimage='http://127.0.0.1:5000/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
                     />
                
                 </Route>
 
                 <Route path='/cellphone'>
                 <Cellphones 
-                     getpopular='http://127.0.0.1:5000/cellphone/getpopular'
-                     getsearchimgdata= 'http://127.0.0.1:5000/cellphone/getsearchimgdata'
-                     getdata='http://127.0.0.1:5000/cellphone/getdata'
-                     getrecommendations='http://127.0.0.1:5000/cellphone/getrecommendations'
-                     getsimilarimage='http://127.0.0.1:5000/cellphone/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
                     />
                
                 </Route>
 
                 <Route path='/fashion'>
                 <Electronics 
-                     getpopular='http://127.0.0.1:5000/getpopular'
-                     getsearchimgdata= 'http://127.0.0.1:5000/getsearchimgdata'
-                     getdata='http://127.0.0.1:5000/getdata'
-                     getrecommendations='http://127.0.0.1:5000/getrecommendations'
-                     getsimilarimage='http://127.0.0.1:5000/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
                     />
                
                 </Route>  

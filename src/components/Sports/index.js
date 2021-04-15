@@ -43,7 +43,7 @@ function Sports({getpopular,getsearchimgdata,getdata,getrecommendations,getsimil
 
         axios({
             method: 'get',
-            // url: 'https://recommender-fyp.herokuapp.com/getpopular',
+            // url: 'https://recommender-fyp.herokuapp.com/sports/getpopular',
             url:getpopular,
           })
           .then((response)=>{ set_pop_data(response.data)         
@@ -52,7 +52,7 @@ function Sports({getpopular,getsearchimgdata,getdata,getrecommendations,getsimil
          
           axios({
             method: 'get',
-            // url: 'https://recommender-fyp.herokuapp.com/getsearchimgdata',
+            // url: 'https://recommender-fyp.herokuapp.com/sports/getsearchimgdata',
             url:getsearchimgdata,
           })
           .then((response)=>{set_image_data(response.data)})
@@ -60,7 +60,7 @@ function Sports({getpopular,getsearchimgdata,getdata,getrecommendations,getsimil
 
           axios({
             method: 'get',
-            // url: 'https://recommender-fyp.herokuapp.com/getdata',
+            // url: 'https://recommender-fyp.herokuapp.com/sports/getdata',
             url:getdata,
           })
           .then((response)=>{ 
@@ -100,7 +100,7 @@ function Sports({getpopular,getsearchimgdata,getdata,getrecommendations,getsimil
         axios({
             
             method: 'post',
-            // url: 'https://recommender-fyp.herokuapp.com/getrecommendations',
+            // url: 'https://recommender-fyp.herokuapp.com/sports/getrecommendations',
             url:getrecommendations,
             data: {
               "all_products" : ratings_from_child
@@ -131,7 +131,7 @@ function Sports({getpopular,getsearchimgdata,getdata,getrecommendations,getsimil
 
         axios({
             method: 'post',
-            // url: 'https://recommender-fyp.herokuapp.com/getsimilarimage',
+            // url: 'https://recommender-fyp.herokuapp.com/sports/getsimilarimage',
             url:getsimilarimage,
             data: 
                 {

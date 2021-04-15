@@ -41,11 +41,11 @@ const Home = () => {
 
                 <Route path='/sports'>
                 <Sports 
-                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
-                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
-                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
-                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
-                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/sports/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/sports/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/sports/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/sports/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/sports/getsimilarimage'
                     />
                
                 </Route>
@@ -63,11 +63,11 @@ const Home = () => {
 
                 <Route path='/cellphone'>
                 <Cellphones 
-                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
-                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
-                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
-                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
-                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
+                     getpopular='https://recommender-fyp.herokuapp.com/cellphone/getpopular'
+                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/cellphone/getsearchimgdata'
+                     getdata='https://recommender-fyp.herokuapp.com/cellphone/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/cellphone/getrecommendations'
+                     getsimilarimage='https://recommender-fyp.herokuapp.com/cellphone/getsimilarimage'
                     />
                
                 </Route>

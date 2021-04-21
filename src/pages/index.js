@@ -10,6 +10,7 @@ import {homeObjOne,homeObjThree} from '../components/InfoSection/Data';
 import Electronics from '../components/Electronics';
 import Sports from '../components/Sports';
 import Cellphones from '../components/Cellphones';
+import Movies from '../components/Movies';
 import {BrowserRouter as Router ,Route , Switch} from 'react-router-dom'
 
 const Home = () => {
@@ -50,13 +51,11 @@ const Home = () => {
                
                 </Route>
 
-                <Route path='/kitchen'>
-                <Electronics 
-                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
-                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
-                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
-                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
-                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
+                <Route path='/movie'>
+                <Movies 
+                     getpopular='https://recommender-fyp.herokuapp.com/movies/getpopular'
+                     getdata='https://recommender-fyp.herokuapp.com/movies/getdata'
+                     getrecommendations='https://recommender-fyp.herokuapp.com/movies/getrecommendations'
                     />
                
                 </Route>
@@ -71,17 +70,6 @@ const Home = () => {
                     />
                
                 </Route>
-
-                <Route path='/fashion'>
-                <Electronics 
-                     getpopular='https://recommender-fyp.herokuapp.com/electronics/getpopular'
-                     getsearchimgdata= 'https://recommender-fyp.herokuapp.com/electronics/getsearchimgdata'
-                     getdata='https://recommender-fyp.herokuapp.com/electronics/getdata'
-                     getrecommendations='https://recommender-fyp.herokuapp.com/electronics/getrecommendations'
-                     getsimilarimage='https://recommender-fyp.herokuapp.com/electronics/getsimilarimage'
-                    />
-               
-                </Route>  
 
             </Switch>
             </Router>
